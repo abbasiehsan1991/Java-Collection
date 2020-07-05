@@ -1,2 +1,3 @@
+include ':pure_java'
 include ':app'
 rootProject.name = "Java Collections"
