@@ -21,12 +21,29 @@ class Stage1 {
 
         System.out.println(queue);
 
-        System.out.println(queue.remove());
-        System.out.println(queue.remove());
-        System.out.println(queue.remove());
-        System.out.println(queue.remove());
-        System.out.println(queue);
+        /**
+         * 	This method is used to view the head of queue without removing it. It returns Null if the queue is empty.
+         */
+        System.out.println("Peak()-> " + queue.peek());
 
+        /**
+         * This method removes and returns the head of the queue.
+         * It throws NoSuchElementException when the queue is empty.
+         */
+        System.out.println(queue.remove());
+        System.out.println(queue.remove());
+        System.out.println(queue.remove());
+
+        //We will get an exception here because our queue is empty now
+        //System.out.println(queue.remove());
+
+        /**
+         * This method removes and returns the head of the queue. It returns null if the queue is empty.
+         * If we want to prevent this exception, we can use Poll() instead of remove()
+         */
+        System.out.println(queue.poll());
+
+        System.out.println(queue);
 
     }
 }
