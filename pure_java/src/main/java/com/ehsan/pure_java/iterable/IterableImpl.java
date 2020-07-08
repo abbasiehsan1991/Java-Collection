@@ -1,4 +1,4 @@
-package com.ehsan.pure_java;
+package com.ehsan.pure_java.iterable;
 
 import org.jetbrains.annotations.NotNull;
 

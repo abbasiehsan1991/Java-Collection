@@ -1,9 +1,10 @@
-package com.ehsan.pure_java;
+package com.ehsan.pure_java.iterable;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Vector;
 import java.util.function.Consumer;
 
 /*
@@ -18,7 +19,7 @@ class Stage3 {
         list.add("One");
         list.add("Two");
         list.add("Three");
-
+        Vector<String> vector = new Vector<>();
         //We just cast our list into collection
         Collection<String> collection = list;
 

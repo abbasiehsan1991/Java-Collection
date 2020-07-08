@@ -1,9 +1,6 @@
-package com.ehsan.pure_java;
+package com.ehsan.pure_java.iterable;
 
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Iterator;
-import java.util.List;
 import java.util.function.Consumer;
 
 /*
