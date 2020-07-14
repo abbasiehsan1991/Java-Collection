@@ -1,4 +1,4 @@
-package com.ehsan.pure_java.deque;
+package com.ehsan.pure_java.queue.deque;
 
 /*
  * Created by Esi on 7/8/20.
@@ -46,8 +46,6 @@ class Stage1 {
          */
         //arrayDeque.pop();
 
-
         System.out.println(arrayDeque);
-
     }
 }
